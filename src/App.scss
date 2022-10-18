@@ -1,0 +1,24 @@
+@import "~antd/dist/antd.css";
+
+.mainpage {
+  padding-top: 5%;
+  background-color: #fff;
+  .searchbar {
+    margin-bottom: 15px;
+    .searchbar-select {
+      width: 180px;
+    }
+  }
+  .graph-header {
+    margin-bottom: 50px;
+  }
+  .graph-container {
+    display: flex;
+    flex-direction: column;
+
+    .graph-bar {
+    }
+    .graph-pie {
+    }
+  }
+}
